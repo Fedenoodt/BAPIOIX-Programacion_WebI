@@ -1,0 +1,36 @@
+.DV1 {
+	position: absolute;
+	width: 270px; height: 750px;
+	overflow: scroll;
+	top: 10px; left: 10px;
+}
+
+.DV2 {
+	position: absolute;
+	width: 270px; height: 750px;
+	overflow: scroll;
+	top: 10px; left: 290px;
+}
+
+.DV3 {
+	position: absolute;
+	width: 270px; height: 750px;
+	overflow: scroll;
+	top: 10px; left: 570px;
+}
+
+.imagen {
+	width: 250px; height: 250px;
+}
+
+.titulo {
+	font-size: 15px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.subtitulo {
+	font-size: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+}

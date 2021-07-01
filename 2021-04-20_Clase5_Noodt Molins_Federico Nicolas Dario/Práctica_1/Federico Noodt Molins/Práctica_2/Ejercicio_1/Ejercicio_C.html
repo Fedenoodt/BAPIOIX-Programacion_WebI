@@ -1,0 +1,21 @@
+<html><head></head><body>
+    <h1>Android ya soporta Rust oficialmente como lenguaje de programación para su desarrollo</h1>
+    <p style="font-size:14px; font-family:Verdana,sans-serif">Aunque siguen siendo dos de los lenguajes más usados y eficientes, C y C++ también son famosos por sus problemas de gestión de memoria. De hecho, el equipo que se encarga del desarrollo y mantenimiento de Android dentro de Google, ha expresado que los fallos de seguridad de memoria en C y C++ siguen siendo la fuente de errores en el código de Android más difíciles de abordar.
+
+Esto es una de las razones por las que hace tiempo que Google no solo ha estado promoviendo el uso de lenguajes como Java y Kotlin, sino que ahora, AOSP (Android Open Source Project) soporta Rust como lenguaje para desarrollar el propio sistema operativo. 
+
+A la hora de desarrollar aplicaciones para Android, Google explica que lenguajes como Java y Kotlin son las mejores opciones. Esto es porque esos lenguajes están diseñados para ser fáciles de usar, portables y seguros.
+
+Ahora, en el caso del propio sistema operativo como tal, Java y Kotlin no son una opción. Esto es porque las capas más profundas de Android requieren lenguajes de programación como C, C++ y Rust, es decir, lenguajes que proporcionen acceso a los recursos del sistema y al hardware de bajo nivel, que sea ligeros en recursos y que tengan características de rendimiento más predecibles.
+
+    En el caso de C y C++, el desarrollador es el responsable de gestionar el tiempo de vida de la memoria. Desafortunadamente, es fácil cometer errores al hacer esto, especialmente en bases de código complejas y multihilo.
+
+    Rust proporciona garantías de seguridad de la memoria utilizando una combinación de comprobaciones en tiempo de compilación para imponer la vida/propiedad de los objetos y comprobaciones en tiempo de ejecución para asegurar que los accesos a la memoria son válidos. Esta seguridad se consigue proporcionando un rendimiento equivalente al de C y C++.
+
+Esto no significa en lo absoluto que Rust vaya a reemplazar a C/C++, y obviamente añadir soporte a un nuevo lenguaje no soluciona los bugs que ya existen en el otro. Como explican los ingenieros de Android: reescribir decenas de millones de líneas de código simplemente no es factible.
+
+Sin embargo, la adición de Rust permitiría reducir el número y la densidad de futuros bugs, y también mejoraría la efectividad del sandboxing en Android, lo que a su vez también mejora la detección de bugs. El equipo de AOSP lleva 18 meses trabajando para añadir el soporte para Rust, y dicen tener algunos proyectos que compartirán en los próximos meses. Escalar esto a más partes del sistema es un proyecto de múltiples años que apenas acaba de comenzar.
+
+Esto es otro empujón más a la popularidad creciente de Rust, un lenguaje que ha estado pasando de ser relativamente desconocido, a ser el más amado por muchos programadores, que tiene el potencial de poder incluso reemplazar C y C++ dentro de todo Microsoft, por justamente las mismas razones que Android le está dando soporte, y que incluso ha generado todo un movimiento para traerlo a Linux. 
+</p>
+</body></html>

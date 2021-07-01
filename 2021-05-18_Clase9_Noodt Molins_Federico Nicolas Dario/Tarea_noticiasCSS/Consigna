@@ -1,0 +1,15 @@
+Distribuir los objetos HTML en el contenedor:
+	-Definida dentro de cada objeto
+	-Position
+		static(default)
+		  -Orden en que se escriben en el HTML, 
+		   de izquierda a derecha, y de arriba a abajo.
+		  -Ignora los estilos top, bottom, left, right,
+		   y absolute.
+		  -Usa si o si el top left bottom right.
+		  
+Observación 1: Si se elije absolute y no se define top, botom, left, 
+y right, le asigna cero a top left.
+
+Observación 2: Si no se elije position, se asigna el valor de static
+a position.
