@@ -1,0 +1,91 @@
+
+
+Hugo
+Federico
+Oliver 
+
+
+function
+
+   -secuencia de comandos que se ejecutan desde la consola 
+   
+   -la function es un objeto
+   
+   -para ejecutar una funcion hay que colocar () al fin del nombre de la variable que contiene la funcion 
+   
+   -argumentos, lo que necesito para ejecutar la funcion se ubica entre parentesis
+   
+   -una funcion siempre devuelve algo , si no se indica con return que tiene que retornar, retornal algo al azar 
+   
+--------------------------------------
+
+Tecnica desarrollo POO,
+  
+  un problema se lo va dividiendo en partes 
+     - empezas a pensar en javascript, cuando divido en partes muy pequeñas 
+	 
+
+  
+  1.- mover horizontalmente un cuadrado
+  
+   1.1.- en dar un paso 
+     1.1.1.- obtener lo que quiero mover
+	    document.getElementById("animado")
+	 1.1.2.- que seria mover - que cambiamos para que se mueva 
+	   acceso a atributos y estilos de objeto html como un json 
+	     cartoon.id
+		 cartoon.style
+		 cartoon.style.left 
+	 
+	 1.1.3.- armar la sentencias que realizan ese cambio. Tener en cuenta en que estado esta . 
+	     1.1.3.1.- obtener el left donde esta la figura
+		     parseInt(ubicacion)
+		 1.1.3.2.- sumarle el paso, (5 px)
+		 1.1.3.3.- cambiarle el left al nuevo valor
+           buscar 	cartoon.style.left 
+           el signo "*" son dos funciones en el mismo signo, una funcion es sumar numeros, y la otra es unir (concatenar) palabras (string).  Si se usa el signo mas con un numero y un string convierte el numero a string y usa la segunda funcion de +
+		   
+
+   1.2.- repetir una secunecia de pasos 
+     1.2.1.- detectar cuando tiene que detenerse 
+	 1.2.2.- repeticion continua 
+	 
+	   setInterval 
+	 
+	 
+   
+Base de Datos:
+   - mecanismo para hacer persistente en el tiempo a objetos 
+   - mecanismos para buscar un dato en un pajar (a una cantidad muy grande de informacion , que hace imposible buscar uno por uno)
+   
+
+------------------
+
+Pasos para armar una funcion 
+
+
+1.- logramos lo que queriamos desde la consola
+
+2.- tomamos desde la consola las sentencias que usamos para lograrlo
+
+3.- agrupamos las sentencias dentro de un {}
+
+4.- definimos las variables:
+  las locales, temporales del a funcion   VAR 
+  las que necesitamos para realizar la funcion ()
+  
+---------------
+
+setInterval 
+
+  https://www.w3schools.com/jsref/met_win_setinterval.asp
+  
+  
+setInterval(function,milisegundos,argumentos de la function)
+
+setInterval(darUnPaso,100,5)
+
+
+
+  
+  
