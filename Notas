@@ -193,3 +193,12 @@ Javascript es muy similar a Python en la mayoría de sus aspectos, es un lenguaj
         }
     </script>
 </body></html>
+
+   -Clase #15: 02-07-2021_Viernes:
+
+Hoy el profe, en esta clase de apoyo, nos mostró como "funcionan" las funciones, y nos recalcó que esta es un objeto, con sus valores y caracteristicas.
+Esta es una secuencia de comandos que se ejecutan desde la consola, y para ejecutarla hay que colocar () al final, para aclarar la o las variables de la funcion.
+
+Después seguimos por hacer la problematica del movimiento. El GetElementById toma en una variable a el objeto div, para poder manipularlo, la misión es moverlo, por lo que tomamos la posición, también en una variable, y hacemos una funcion con dicha suma variable. 
+
+w3schools/jsref/met_win_setinterval.asp tiene documento sobre setInterval. Básicamente es un bucle, que si no se configura corrrectamente, no para. "clearInterval((ID que devuelve))" es una instrucción para detenerlo.
