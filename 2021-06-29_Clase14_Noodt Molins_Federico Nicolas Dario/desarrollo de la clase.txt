@@ -71,7 +71,7 @@ Pasos para armar una funcion
 3.- agrupamos las sentencias dentro de un {}
 
 4.- definimos las variables:
-  las locales, temporales del a funcion   VAR 
+  las locales, temporales de la funcion   VAR 
   las que necesitamos para realizar la funcion ()
   
 ---------------

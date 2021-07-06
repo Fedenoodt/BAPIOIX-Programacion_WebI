@@ -1,0 +1,5 @@
+- objeto = rectangulo
+- ejeY = parseInt(bloque.style.top)
+- ejeX = parseInt(bloque.style.left)
+- paso = 5px
+- 
