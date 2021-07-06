@@ -7,10 +7,33 @@
     
     
     <script>
-    objeto = document.getElementById(rectangulo)
-    ejeX = 10
-    ejeY = 10
-    paso = 1
+    objeto = document.getElementById("rectangulo")
+    paso = "1px"
+    function vertical(paso) {
+        objeto.style.top = "10px"
+        tope = parseInt(objeto.style.top)
+        tope += parseInt(paso)
+        concatenado = tope + "px"
+        objeto.style.top = concatenado
+        return objeto.style.top
+    }
+    
+    
+    function horizontal(paso) {
+        objeto.style.left = "10px"
+        ancho = parseInt(objeto.style.left)
+        ancho += parseInt(paso)
+        concatenado = ancho + "px"
+        objeto.style.left = concatenado
+        return objeto.style.left
+    }
+    
+    
+    function ejecucion() {
+        setInterval(abajo, 10, paso)
+        setInterval(derecha, 10, paso)
+    }
+    
 </script>
     
 </body></html>
