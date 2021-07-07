@@ -202,3 +202,12 @@ Esta es una secuencia de comandos que se ejecutan desde la consola, y para ejecu
 Después seguimos por hacer la problematica del movimiento. El GetElementById toma en una variable a el objeto div, para poder manipularlo, la misión es moverlo, por lo que tomamos la posición, también en una variable, y hacemos una funcion con dicha suma variable. 
 
 w3schools/jsref/met_win_setinterval.asp tiene documento sobre setInterval. Básicamente es un bucle, que si no se configura corrrectamente, no para. "clearInterval((ID que devuelve))" es una instrucción para detenerlo.
+
+   -Clase #16 [CIERRE]: 06-07-2021_Martes:
+
+Hoy conseguimos cerrar el asunto del objeto movil de JavaScript.
+
+El profe está dando una orientación de todo lo que pasó ahora con esto de los objetos, las funciónes, las variables, y todo en JavaScript.
+
+JavaScript es un lenguaje de programación, un interprete o máquina virtual, no tiene tipos de datos, y busca ser lo mas simple posible. Y hoy es el lenguaje fundamental y primario de todos los navegadores.
+
