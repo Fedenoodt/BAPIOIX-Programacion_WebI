@@ -1,5 +1,5 @@
  -function movimiento(paso) {
- 	 objeto = getElementByID("rectangulo")
+ 	 objeto = document.getElementByID("rectangulo")
          tope = parseInt(objeto.style.top)
          tope += parseInt(paso)
          ancho = parseInt(objeto.style.left)
